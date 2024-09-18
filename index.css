@@ -21,6 +21,13 @@
     gap: 40px;
 }
 
+.encabezado__navegacion--lista{
+    display: flex;
+    color: white;
+    gap: 40px;
+    list-style-type: none;
+}
+
 .encabezado__navegacion--elemento {
     color: var(--blanco);
     font-size: 24px;
@@ -28,6 +35,8 @@
     font-weight: 500;
     line-height: normal;
 }
+
+
 
 .banner__img {
     max-width: 100%;
