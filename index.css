@@ -36,10 +36,12 @@
     line-height: normal;
 }
 
-
+.banner__img-container{
+    margin: 0;
+}
 
 .banner__img {
-    max-width: 100%;
+    max-width: auto;
 }
 
 .banner__descripcion {
