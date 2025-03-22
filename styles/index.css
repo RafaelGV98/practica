@@ -120,11 +120,11 @@ img {
 }
 
 .ofertas__cards--japon {
-    background-image: url("./img/tokyo.png");
+    background-image: url("/img/tokyo.png");
 }
 
 .ofertas__cards--san-andreas {
-    background-image: url("./img/san-andreas.png");
+    background-image: url("/img/san-andreas.png");
 }
 
 
