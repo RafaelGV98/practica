@@ -19,6 +19,7 @@
   
   .encabezado__logo--icono {
     max-width: 180px;
+    height: 70px;
     width: 100%;
   }
   
@@ -490,6 +491,7 @@
   
   .footer__logo-icon {
     max-width: 140px;
+    height: 80px;
     margin-bottom: 20px;
   }
 
