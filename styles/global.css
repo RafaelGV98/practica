@@ -1,21 +1,28 @@
+/* Variables CSS */
 :root {
-    /* Colors */
-    --blanco: #fff;
     --negro: #000;
-    --neutral-c: #f5f5f5;
-    --gris-oscuro: #8c8c8c;
+    --blanco: #FFF;
     --grafito: #222;
-    --rojo: #b81515;
-}
-
-* {
-    font-family: Montserrat;
+    --rojo: #B81515;
+    --rojo-oscuro: #a01212;
+    --gris-claro: #F5F5F5;
+    --gris-oscuro: #8C8C8C;
+    --neutral-c: #F5F5F5;
+  }
+  
+  /* Estilos Base */
+  * {
     box-sizing: border-box;
-}
-
-body {
+    font-family: Montserrat;
     margin: 0;
-}
+    padding: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 
 a {
     text-decoration: none;
