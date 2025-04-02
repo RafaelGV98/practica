@@ -74,7 +74,7 @@
                             <div class="ofertas__card--contenido">
                                 <div class="ofertas__card--destino">
                                     <div class="ofertas__card--destino-tipo">HOTEL+AÉREO</div>
-                                    <b class="ofertas__card--destino-nombre">San Andreas</b>
+                                    <b class="ofertas__card--destino-nombre">San Andres</b>
                                 </div>
                                 <div class="ofertas__card--precio">$ 3000</div>
                                 <div class="ofertas__card--boton">
@@ -90,45 +90,47 @@
 
         <div class="busca">
             <div class="busca__titulo">
-                <div>Busca por Categoría</div>
-                <div class="busca__titulo--subrayado"></div>
+              <div>Busca por Categoría</div>
+              <div class="busca__titulo--subrayado"></div>
             </div>
             <div class="busca__categorias">
-                <div class="busca__categoria">
-                    <div class="busca__categoria--icono">
-                        <span class="material-symbols-outlined">
-                            hiking
-                        </span>
-                    </div>
-                    <b class="busca__categoria--nombre">Paquetes Nacionales</b>
+              <!-- Categoría 1 - Corregido data-categoria y nombre de clase -->
+              <div class="busca__categoria" data-categoria="nacionales">
+                <div class="busca__categoria--icono">
+                  <span class="material-symbols-outlined">hiking</span>
                 </div>
-                <div class="busca__categoria">
-                    <div class="busca__categoria--icono">
-                        <span class="material-symbols-outlined">
-                            flight
-                        </span>
-                    </div>
-                    <b class="busca__categoria--nome">Paquetes Internacionales</b>
+                <b class="busca__categoria--nombre">Paquetes Nacionales</b>
+              </div>
+              
+              <!-- Categoría 2 - Corregido nombre de clase -->
+              <div class="busca__categoria" data-categoria="internacionales">
+                <div class="busca__categoria--icono">
+                  <span class="material-symbols-outlined">flight</span>
                 </div>
-                <div class="busca__categoria">
-                    <div class="busca__categoria--icono">
-                        <span class="material-symbols-outlined">
-                            airport_shuttle
-                        </span>
-                    </div>
-                    <b class="busca__categoria--nome">Transfer</b>
+                <b class="busca__categoria--nombre">Paquetes Internacionales</b>
+              </div>
+              
+              <!-- Categoría 3 - Corregido nombre de clase -->
+              <div class="busca__categoria" data-categoria="transfer">
+                <div class="busca__categoria--icono">
+                  <span class="material-symbols-outlined">airport_shuttle</span>
                 </div>
-                <div class="busca__categoria">
-                    <div class="busca__categoria--icone">
-                        <span class="material-symbols-outlined">
-                            vpn_lock
-                        </span>
-                    </div>
-                    <b class="busca__categoria--nombre">Seguro de Viaje</b>
+                <b class="busca__categoria--nombre">Transfer</b>
+              </div>
+              
+              <!-- Categoría 4 - Corregido nombre de clase -->
+              <div class="busca__categoria" data-categoria="seguros">
+                <div class="busca__categoria--icono">
+                  <span class="material-symbols-outlined">vpn_lock</span>
                 </div>
+                <b class="busca__categoria--nombre">Seguro de Viaje</b>
+              </div>
             </div>
-        </div>
-
+            
+            <!-- Contenedor para resultados -->
+            <div class="categoria-resultados" id="categoriaResultados"></div>
+          </div>
+          
         <div class="destinos">
             <div class="destinos__titulo">
                 <div class="destinos__titulo--texto">Destinos Populares</div>
@@ -276,9 +278,9 @@
                 <img class="footer__logo-icon" alt="" src="./img/logobranco-1@2x.png" />
                 <div class="footer__info-container">
                     <div class="footer__text-info">
-                        Horario de atendimiento: 08h - 20h (Lunes a Sábado)                    </div>
+                        Horario de atencion: 8:00 A.M - 8:00 P.M (Lunes a Sábado)                    </div>
                     <div class="footer__text-info">
-                        Desarrollado por Alura Latam. Proyecto fictício sin fines comerciales.                    </div>
+                        Desarrollado por Ing. Rafael Guerra.                    </div>
                 </div>
             </div>
             <div class="footer__social-media-container">
